@@ -27,12 +27,14 @@ To create a student database and execute DDL queries using SQL.
  create table student(RegisterNumber int,Name varchar(100),Age int,Address varchar(250),PhoneNumber int) ;
 
 ### OUTPUT:
+![312321602-3b2ea28e-b13f-44f6-aede-bf9c1eda44da](https://github.com/ttamizharasi/DBMS/assets/119657317/5f511db3-f8e7-4966-b072-b19ce06f692d)
 
 ### 2) Alter the above student table by adding another attribute department
 
 ### SQL QUERY: 
  alter table student add dept varchar(20);
 ### OUTPUT:
+![312322191-64c4a805-220f-4d16-b47e-439959808b5b](https://github.com/ttamizharasi/DBMS/assets/119657317/d2b92123-ff7b-4b4c-83a7-0ecdd4e49c05)
 
 ### 3) Rename the student table to mystudent
 
@@ -49,9 +51,6 @@ drop table student1;
 
 ### OUTPUT:
 ![312323647-5f948625-f601-407a-b9c0-7833e51a999c](https://github.com/ttamizharasi/DBMS/assets/119657317/9bf81ecc-a89f-4bbc-914b-43c4784a7168)
-
-
-
 
 
 
