@@ -10,11 +10,26 @@
 6. End the begin section.
 
 ### Program:
-
-
+```
+DECLARE
+    a NUMBER := 10; 
+    b NUMBER := 20; 
+    c NUMBER := 15; 
+    biggest NUMBER;
+BEGIN
+    IF a >= b AND a >= c THEN
+        biggest := a;
+    ELSIF b >= a AND b >= c THEN
+        biggest := b;
+    ELSE
+        biggest := c;
+    END IF;
+    
+    DBMS_OUTPUT.PUT_LINE('The biggest of ' || a || ', ' || b || ', and ' || c || ' is: ' || biggest);
+END;
+```
 ### Output:
-
-
+![image](https://github.com/ttamizharasi/DBMS/assets/119657317/519ed276-2b2a-4712-a77d-dfa99e83213e)
 
 ### Result:
 Thust the program was performed sucessfully.
